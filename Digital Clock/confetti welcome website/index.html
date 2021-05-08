@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kristi&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css">
+    
+  </head>
+  <body>
+    <div class="main_header">
+      <div class="center_div">
+        <p>
+          We are near to 200k Subs
+          <br />
+          🎂I love you all!🎂
+        </p>
+      </div>
+    </div>
+
+    
+
+   
+    <script src="./confetti.js"></script>
+    <script>
+      //   confetti.stop();
+
+      const startit = () => {
+        setTimeout(function () {
+          console.log("start");
+          confetti.start();
+        }, 1000);
+      };
+
+      const stopit = () => {
+        setTimeout(function () {
+          console.log("stop");
+          confetti.stop();
+        }, 10000);
+      };
+
+      startit();
+      stopit();
+    </script>
+  </body>
+</html>

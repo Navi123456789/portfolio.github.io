@@ -1,0 +1,95 @@
+/* #30475e
+
+#00b7c2 */
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+*
+{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+body{
+
+background-color:#30475e ;
+}
+
+.quoteback
+{
+background-color:#00b7c2 ;
+/* height: 65vh; */
+margin-top:6rem;
+
+}
+.quoteauthor
+{
+    background-color: white;
+    margin-top: 5rem;
+    /* height: 50vh;
+     */
+    margin-bottom: 6rem;
+}
+.icons
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.authors{
+    display: flex;
+   
+    justify-content: flex-end;
+  
+    
+}
+
+#newQ
+{
+    margin-left:-1rem;
+    border-radius: 0px;
+    width:108%;
+    
+   }
+#tweetMe
+{
+    cursor: pointer;
+}
+
+
+@media (min-width:1200px)
+{
+
+    #newQ
+    {
+       width:106.5%; 
+    }
+}
+@media (min-width:768px) and (max-width:992px)
+{
+
+    #newQ
+    {
+       width:110.6%; 
+    }
+}
+@media (max-width:478px)
+{
+
+    #newQ
+    {
+       width:114%; 
+    }
+}
+
+@media (min-width:478px) and (max-width:768px)
+{
+
+    #newQ
+    {
+       width:110%; 
+    }
+}
+
+
+
